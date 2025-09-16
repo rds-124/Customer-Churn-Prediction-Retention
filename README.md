@@ -1,4 +1,4 @@
-# 📊 Customer Churn Prediction & Retention Strategy
+# 📊 Customer Churn Prediction & Retention Strategy | SQL + Python + Power BI
 
 An end-to-end analytics project using **SQL, Python, and Power BI** to analyze telecom customer churn, build a logistic risk model, and design ROI-based retention strategies.  
 The project combines **EDA, segmentation, churn prediction, and interactive dashboards** to showcase actionable business insights and cost-saving opportunities.
@@ -50,6 +50,27 @@ This project simulates how telecom companies can **predict churn, analyze driver
 
 **Dataset → Python (EDA + Modeling) → SQL (Segmentation) → Power BI (Dashboard) → Business Insights**
 
+
+---
+
+## ⚡ How to Run
+
+**1. Python Notebooks**
+```
+pip install -r requirements.txt
+jupyter notebook notebooks/01_clean_eda.ipynb
+jupyter notebook notebooks/02_model_sim.ipynb
+```
+- Performs data cleaning, feature engineering, and EDA
+- Runs logistic regression and ROI simulation
+
+**2. SQL**
+- Import sql/setup.sql into MySQL
+- Run queries in sql/insights.sql for churn segmentation and insights
+
+**3. Power BI**
+-   Open powerbi/churn_dashboard.pbix
+-   Refresh data source to connect with SQL or CSV export
 
 ---
 
