@@ -43,6 +43,13 @@ This project simulates how telecom companies can **predict churn, analyze driver
 └── README.md
 ```
 
+---
+
+## 📊 Project Workflow
+![Project Flow](docs/project_flow.png)
+
+**Dataset → Python (EDA + Modeling) → SQL (Segmentation) → Power BI (Dashboard) → Business Insights**
+
 
 ---
 
@@ -67,28 +74,28 @@ This project simulates how telecom companies can **predict churn, analyze driver
 
 ## 🗄 SQL Insights
 
-### Churn by Contract Type
-![SQL Contract](images/sql_contract.png)
+### Churn by Payment Method
+![SQL Contract](docs/images/sql_payment.png)
 
 ### Top Churn Reasons
-![SQL Reasons](images/sql_reasons.png)
+![SQL Reasons](docs/images/sql_reasons.png)
 
-### High-Value Customers at Risk
-![SQL High Value](images/sql_highvalue.png)
+
 
 ---
 
 ## 📈 Python Analysis
 
 ### EDA
-![EDA Tenure](images/eda_tenure.png)  
-![EDA Contract](images/eda_contract.png)
+![EDA Tenure](docs/images/eda_tenure.png)  
+![EDA Contract](docs/images/eda_contract.png)
+![EDA Charges](docs/images/eda_charges.png)
 
 ### Logistic Model (AUC: 0.833)
-![Model Metrics](images/model_metrics.png)
+![Model Metrics](docs/images/model_metrics.png)
 
 ### ROI Simulation Grid
-![ROI Grid](images/roi_grid.png)
+![ROI Grid](docs/images/roi_grid.png)
 
 ---
 
@@ -107,15 +114,10 @@ This project simulates how telecom companies can **predict churn, analyze driver
 - Designed **ROI-based retention simulator** to optimize spend; identified high-value customers at risk and simulated offers with up to **6× ROI**.  
 - Developed interactive Power BI dashboard with **KPIs, churn drivers, risk segmentation, and customer drillthrough profiles**.  
 
----
-
-## 📊 Project Workflow
-![Project Flow](docs/project_flow.png)
-
-**Dataset → Python (EDA + Modeling) → SQL (Segmentation) → Power BI (Dashboard) → Business Insights**
 
 ---
 
 ## 📬 Contact
 If you found this project useful, let’s connect:  
 📧 Email | 💼 LinkedIn | 🐙 GitHub
+
