@@ -50,7 +50,6 @@ This project simulates how telecom companies can **predict churn, analyze driver
 
 **Dataset → Python (EDA + Modeling) → SQL (Segmentation) → Power BI (Dashboard) → Business Insights**
 
-
 ---
 
 ## ⚡ How to Run
@@ -65,11 +64,20 @@ jupyter notebook notebooks/02_model_sim.ipynb
 - Runs logistic regression and ROI simulation
 
 **2. SQL**
-- Import sql/setup.sql into MySQL
-- Run queries in sql/insights.sql for churn segmentation and insights
+- Import into MySQL
+```
+sql/setup.sql
+```
+- Run queries for churn segmentation and insights
+```
+sql/insights.sql
+```
 
 **3. Power BI**
--   Open powerbi/churn_dashboard.pbix
+-   Open
+```
+powerbi/churn_dashboard.pbix
+```
 -   Refresh data source to connect with SQL or CSV export
 
 ---
@@ -140,5 +148,7 @@ jupyter notebook notebooks/02_model_sim.ipynb
 
 ## 📬 Contact
 If you found this project useful, let’s connect:  
-📧 Email | 💼 LinkedIn | 🐙 GitHub
+📧 Email rohithsd124@gmail.com
+💼 [LinkedIn](https://www.linkedin.com/in/rohith124)
+🐙 [GitHub](https://github.com/rds-124)
 
