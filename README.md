@@ -1,4 +1,14 @@
-# 📊 Customer Churn Prediction & Retention Strategy | SQL + Python + Power BI
+# 📊 Customer Churn Prediction & Retention Strategy | SQL + Python + Power BI  
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-MySQL-orange?logo=mysql&logoColor=white) ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi&logoColor=black)
+![EDA](https://img.shields.io/badge/EDA-Pandas%20%7C%20Seaborn-green)
+![ML](https://img.shields.io/badge/Model-Logistic%20Regression-lightgrey)
+![AUC](https://img.shields.io/badge/AUC-0.833-success)
+![Accuracy](https://img.shields.io/badge/Accuracy-79%25-brightgreen)
+![Recall](https://img.shields.io/badge/Recall-68%25-yellowgreen)
+![Dataset](https://img.shields.io/badge/Dataset-7K%20customers-blueviolet)
+![Use Case](https://img.shields.io/badge/Use--Case-Customer%20Retention-red)
+![License](https://img.shields.io/badge/License-MIT-lightblue)
 
 An end-to-end analytics project using **SQL, Python, and Power BI** to analyze telecom customer churn, build a logistic risk model, and design ROI-based retention strategies.  
 The project combines **EDA, segmentation, churn prediction, and interactive dashboards** to showcase actionable business insights and cost-saving opportunities.
@@ -13,7 +23,7 @@ This project simulates how telecom companies can **predict churn, analyze driver
 ---
 
 ## 📂 Dataset
-- **Source**: [IBM Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)  
+- **Source**: [IBM Telco Customer Churn Dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)  
 - **Size**: 7,043 customers × 33 features  
 - **Key fields**: Tenure, Contract Type, Payment Method, Internet Service, CLTV, Churn Label, Churn Reason  
 
@@ -148,7 +158,7 @@ powerbi/churn_dashboard.pbix
 
 ## 📬 Contact
 If you found this project useful, let’s connect:  
-📧 Email rohithsd124@gmail.com
-💼 [LinkedIn](https://www.linkedin.com/in/rohith124)
+📧 Email rohithsd124@gmail.com  
+💼 [LinkedIn](https://www.linkedin.com/in/rohith124)  
 🐙 [GitHub](https://github.com/rds-124)
 
